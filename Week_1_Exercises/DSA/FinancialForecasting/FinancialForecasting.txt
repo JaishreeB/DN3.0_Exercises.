@@ -1,0 +1,15 @@
+Understanding Recursive Algorithms
+Recursion:
+
+Recursion is a technique in which a function calls itself in order to solve smaller instances of the same problem.
+It simplifies problems by breaking them down into smaller, more manageable sub-problems.
+A recursive function typically has two parts:
+Base case: The condition under which the recursion stops.
+Recursive case: The part of the function where it calls itself with a smaller or simpler argument.
+
+Analysis 
+Time Complexity
+Recursive Method:
+Time Complexity: O(n)
+Memoized Recursive Method:
+Time Complexity: O(n)

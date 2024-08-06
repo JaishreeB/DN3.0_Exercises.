@@ -1,0 +1,15 @@
+Analysis
+Time Complexity
+Add Operation:
+
+Time Complexity: O(n) (Average-case and Worst-case, traversing to the end of the list)
+Best-case: O(1) (When the list is empty)
+Search Operation:
+
+Time Complexity: O(n) (Average-case and Worst-case)
+Traverse Operation:
+
+Time Complexity: O(n)
+Delete Operation:
+
+Time Complexity: O(n) (Average-case and Worst-case, finding the node to delete)

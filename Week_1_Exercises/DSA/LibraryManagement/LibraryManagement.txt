@@ -1,0 +1,22 @@
+Understanding
+Linear Search:
+
+Suitable for small datasets where the overhead of sorting the list is not justified.
+Useful when the list is unsorted or frequently modified (insertions/deletions).
+Binary Search:
+
+Preferred for large datasets due to its logarithmic time complexity.
+Requires the list to be sorted, so it's beneficial when the list remains relatively static with infrequent modifications.
+
+Analysis
+Time Complexity
+Linear Search:
+
+Best-case: O(1) (element is the first in the list)
+Average-case: O(n/2) ≈ O(n)
+Worst-case: O(n) (element is the last or not present)
+Binary Search:
+
+Best-case: O(1) (element is the middle of the list)
+Average-case: O(log n)
+Worst-case: O(log n)

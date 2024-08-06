@@ -1,0 +1,19 @@
+
+Array Representation
+Arrays are a data structure that stores elements of the same type in contiguous memory locations. This allows 
+efficient access to elements using an index, providing constant time complexity (O(1)) for accessing any element.
+Analysis
+Time Complexity
+Add Operation:
+
+Time Complexity: O(1) (Average-case and Best-case, when there is space in the array)
+Worst-case: O(n) (When resizing the array, which is not considered in this implementation)
+Search Operation:
+
+Time Complexity: O(n) (Average-case and Worst-case)
+Traverse Operation:
+
+Time Complexity: O(n)
+Delete Operation:
+
+Time Complexity: O(n) (Average-case and Worst-case, due to the need to shift elements)

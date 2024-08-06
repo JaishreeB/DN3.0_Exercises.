@@ -1,0 +1,17 @@
+Big O Notation
+Big O notation is a mathematical concept used in computer science to describe the performance or complexity of an algorithm. Specifically, it characterizes the time complexity (how the runtime of an algorithm scales with the size of the input) and space complexity (how the memory usage of an algorithm scales with the size of the input).
+
+Best-case scenario: The performance of an algorithm when it executes in the least amount of time.
+Average-case scenario: The expected performance of an algorithm, averaged over all possible inputs.
+Worst-case scenario: The performance of an algorithm when it executes in the maximum amount of time.
+
+Analysis
+Time Complexity
+Linear Search:
+Best-case: O(1) - The target product is at the first position.
+Average-case: O(n) - The target product is somewhere in the middle.
+Worst-case: O(n) - The target product is at the last position or not present at all.
+Binary Search:
+Best-case: O(1) - The target product is at the middle position.
+Average-case: O(log n) - The target product is somewhere in the array.
+Worst-case: O(log n) - The target product is not present and we have to search through the entire array.
